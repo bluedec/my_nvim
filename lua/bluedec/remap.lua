@@ -19,7 +19,7 @@ vim.keymap.set("n", "<leader>0", ":nohlsearch<CR>");
 
 vim.keymap.set("i", "{<CR>", "{<CR>}<C-o>O");
 vim.keymap.set("i", "[<CR>", "[<CR>]<C-o>O<Tab>");
-
+vim.keymap.set("n", "<leader><leader>", "i<Space><Esc>");
 
 
 

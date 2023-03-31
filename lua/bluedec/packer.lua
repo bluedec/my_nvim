@@ -20,6 +20,7 @@ return require('packer').startup(function(use)
 		  vim.cmd('colorscheme rose-pine')
 	  end
   })
+  use('preservim/nerdtree');
   use('Raimondi/delimitMate');
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'});
   use('nvim-treesitter/playground');
@@ -27,6 +28,8 @@ return require('packer').startup(function(use)
   use('mbbill/undotree');
   use('maxmellon/vim-jsx-pretty');
   use('tpope/vim-fugitive');
+  use('kyazdani42/nvim-web-devicons');
+  use('ryanoasis/vim-devicons');
   use {
     'numToStr/Navigator.nvim',
     config = function()

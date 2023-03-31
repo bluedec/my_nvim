@@ -140,6 +140,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\JESU\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  nerdtree = {
+    loaded = true,
+    path = "C:\\Users\\JESU\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nerdtree",
+    url = "https://github.com/preservim/nerdtree"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "C:\\Users\\JESU\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
@@ -154,6 +159,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\JESU\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "C:\\Users\\JESU\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
+    url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -185,6 +195,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\JESU\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\undotree",
     url = "https://github.com/mbbill/undotree"
+  },
+  ["vim-devicons"] = {
+    loaded = true,
+    path = "C:\\Users\\JESU\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-devicons",
+    url = "https://github.com/ryanoasis/vim-devicons"
   },
   ["vim-fugitive"] = {
     loaded = true,
